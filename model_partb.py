@@ -1,21 +1,3 @@
-"""
-genetic_feature_selection.py
-
-This script runs a Genetic Algorithm (GA) for feature selection on the Alzheimer’s dataset
-under various parameter settings. For each combination of (population_size, crossover_prob,
-mutation_prob), it runs the GA 10 times, records the best fitness and number of generations
-to termination, and computes average results. It also plots the average evolution curve
-(best fitness vs. generation) for each case.
-
-Requirements:
-    - Python 3.7+
-    - pandas
-    - numpy
-    - scikit-learn
-    - torch (PyTorch)
-    - matplotlib
-"""
-
 import os
 import random
 import numpy as np
